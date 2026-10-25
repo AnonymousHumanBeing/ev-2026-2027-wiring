@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -649,6 +649,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -661,7 +669,7 @@
         "uuid": "3437b7a9-bc1e-499b-ae21-d3ce03edd56c"
       }
     ],
-    "used_designators": "M1-3,SW1,D1-2,C1-4,S1,P1-2,F1,U1-2",
+    "used_designators": "M1-3,SW1,D1-2,C1-4,U1-2,F1,S1,P1-2",
     "variants": []
   },
   "sheets": [
