@@ -5825,7 +5825,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Teensy:Battery_ScrewTerminal_1x02_P5.08mm"
 			(at 83.82 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5905,7 +5905,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
+		(property "Footprint" "Fuse:Fuseholder_Blade_Mini_Keystone_3568"
 			(at 104.14 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -6088,7 +6088,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Teensy:Display_ST7789_Header_1x08_P2.54mm_Named"
 			(at 66.04 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6188,7 +6188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 223.52 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -6269,7 +6269,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Teensy:Pololu_25D_Motor_Encoder_Header_1x06"
 			(at 270.51 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -6363,7 +6363,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 234.95 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6444,7 +6444,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Teensy:Pololu_D24V22F5_2858"
 			(at 175.26 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -6536,7 +6536,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Teensy:Pololu_DRV8874_4035"
 			(at 208.28 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -6651,7 +6651,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Teensy:Reg8V_ScrewTerminal_1x04_P5.08mm"
 			(at 217.17 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6736,7 +6736,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Teensy:Pololu_DRV8834_2134"
 			(at 205.74 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7033,7 +7033,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Teensy:NEMA8_Stepper_JST_XH_1x04"
 			(at 273.05 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7120,7 +7120,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Teensy:GY-BNO08X_1x10_P2.54mm"
 			(at 107.95 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -7227,7 +7227,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Teensy:Teensy41_PinNames"
 			(at 143.51 111.76 0)
 			(hide yes)
 			(show_name no)
