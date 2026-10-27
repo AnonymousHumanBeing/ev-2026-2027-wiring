@@ -90,7 +90,7 @@
 	(footprint "Teensy:Pololu_DRV8874_4035"
 		(layer "F.Cu")
 		(uuid "1119224d-584a-44a3-be5e-0698fb9f6f73")
-		(at 129.185 123.5)
+		(at 52.85 63.58)
 		(descr "Pololu DRV8874 carrier #4035 (md41a), 15.2x17.8mm, 2x7 0.1in rows 0.5in apart, TOP VIEW chip-side up. Pin order verified against Pololu labeled pinout photo; pads named to match EV_2027:DRV8874_Carrier.")
 		(tags "Pololu_DRV8874_4035")
 		(property "Reference" "CS4"
@@ -594,7 +594,7 @@
 	(footprint "Teensy:Teensy41_PinNames"
 		(layer "F.Cu")
 		(uuid "18708d1c-3c5f-4e01-a2b9-fb702027d62f")
-		(at 120.8184 75.24 -90)
+		(at 94.38 75.65 -90)
 		(property "Reference" "CS1"
 			(at 0 -10.16 90)
 			(layer "F.SilkS")
@@ -1873,7 +1873,7 @@
 	(footprint "Teensy:NEMA8_Stepper_JST_XH_1x04"
 		(layer "F.Cu")
 		(uuid "240e4476-c268-4593-9259-6ffc7ba8b02d")
-		(at 152.895 121.335)
+		(at 154 55.5)
 		(descr "4-pin JST-XH for the Pololu #1204 NEMA 8 stepper. Order: A (A1 black), C (A2 green), B (B1 red), D (B2 blue), so each coil pair is adjacent; matches EV:Pololu_#1204 symbol. Based on KiCad JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
 		(property "Reference" "M1"
@@ -2181,7 +2181,7 @@
 	(footprint "Teensy:Reg8V_ScrewTerminal_1x04_P5.08mm"
 		(layer "F.Cu")
 		(uuid "253590ee-3309-4e1d-9010-e8cf7c14421f")
-		(at 143.685 91.665)
+		(at 111.88 126.1725)
 		(descr "4-pin 5.08mm screw terminal for an off-board 8V regulator module: VIN, GND, VOUT, EN, matching EV:8V_Voltage_Regulator_Placeholder. Based on KiCad Terminal Block Phoenix MKDS-1,5-4-5.08, 4 pins, pitch 5.08mm, size 20.3x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-4-5.08 pitch 5.08mm size 20.3x9.8mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "P2"
@@ -2630,7 +2630,7 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "25af2a41-968c-4195-a184-24013655b907")
-		(at 110.165 116.925)
+		(at 110.38 48)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D1"
@@ -2932,7 +2932,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "25c006d5-786a-450c-be63-f94571fdb971")
-		(at 163.865 107.345)
+		(at 57.5 80)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C2"
@@ -3090,7 +3090,7 @@
 	(footprint "Button_Switch_SMD:SW_SPST_CK_KMS2xxGP"
 		(layer "F.Cu")
 		(uuid "363e5e49-c162-49a2-bd7e-d6433d01a38a")
-		(at 111.865 121.175)
+		(at 94 125.5)
 		(descr "Microminiature SMT Side Actuated, 4.2 x 2.8 x 1.42mm with pegs, https://www.ckswitches.com/media/1482/kms.pdf")
 		(tags "Switch SPST KMS2")
 		(property "Reference" "SW1"
@@ -3387,7 +3387,7 @@
 	(footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "60b6f2ee-2cb1-4a23-ae9f-c512df7afa5d")
-		(at 111.400241 111.225)
+		(at 66.5 56.5)
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm diameter 6.3mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C1"
@@ -4919,7 +4919,7 @@
 	(footprint "Teensy:Pololu_DRV8834_2134"
 		(layer "F.Cu")
 		(uuid "7624ae55-ac79-4f32-b0d1-681e24adc219")
-		(at 84.85 74.35)
+		(at 157.5 72)
 		(descr "Pololu DRV8834 carrier #2134 (md22a), 15.2x20.3mm, 2x8 0.1in rows 0.5in apart, TOP VIEW chip-side up (pot at the DIR/GND end). Pin order verified against Pololu wiring diagram; pads named to match EV_2027:DRV8834_Carrier. CONFIG/VREF are optional jumper pins, unused.")
 		(tags "Pololu_DRV8834_2134")
 		(property "Reference" "CS5"
@@ -5467,11 +5467,11 @@
 	(footprint "Teensy:Pololu_25D_Motor_Encoder_Header_1x06"
 		(layer "F.Cu")
 		(uuid "889d2fa1-5732-4a38-9788-3711c3f656a5")
-		(at 106.295 109.595)
+		(at 45.46 48.5 90)
 		(descr "1x6 0.1in male header for the Pololu 25D gearmotor encoder cable. Pin order Red (M1), Black (M2), Green (enc GND), Blue (enc Vcc), Yellow (A), White (B), matching EV:Pololu_#4801. Verify against your cable before soldering. Based on KiCad Through hole straight pin header, 1x06, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x06 2.54mm single row")
 		(property "Reference" "M2"
-			(at 0 -2.38 0)
+			(at 0 -2.38 90)
 			(layer "F.SilkS")
 			(uuid "0bd72afd-c189-4cf6-8a18-41b53f32581b")
 			(effects
@@ -5482,7 +5482,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 15.08 0)
+			(at 0 15.08 90)
 			(layer "F.Fab")
 			(uuid "af91ccb7-1751-4796-a7f6-3a0d85eee939")
 			(effects
@@ -5493,7 +5493,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ff86cd5d-0d63-4222-a028-921e404125c2")
@@ -5504,7 +5504,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "78c35698-eab4-4452-ab8c-480f23d0a061")
@@ -5515,7 +5515,7 @@
 			)
 		)
 		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "3e9d9069-9e6f-402e-ac47-83e6b075c082")
@@ -5558,14 +5558,14 @@
 			(uuid "d77d842c-ad43-437e-9fcb-1e73181c63ae")
 		)
 		(fp_line
-			(start -1.38 1.27)
-			(end -1.38 14.08)
+			(start 1.38 1.27)
+			(end 1.38 14.08)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ebfbd1c2-0e18-4777-84c0-fad91b9abb2b")
+			(uuid "e210f220-bb0a-4cd9-8ad1-37f94e45b17f")
 		)
 		(fp_line
 			(start -1.38 1.27)
@@ -5578,6 +5578,16 @@
 			(uuid "978b37d0-88e0-4590-9da1-acde4c7c2c7e")
 		)
 		(fp_line
+			(start -1.38 1.27)
+			(end -1.38 14.08)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ebfbd1c2-0e18-4777-84c0-fad91b9abb2b")
+		)
+		(fp_line
 			(start -1.38 14.08)
 			(end 1.38 14.08)
 			(stroke
@@ -5586,16 +5596,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "d285193a-d772-4bfa-9edc-ce8ec55b9bb1")
-		)
-		(fp_line
-			(start 1.38 1.27)
-			(end 1.38 14.08)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e210f220-bb0a-4cd9-8ad1-37f94e45b17f")
 		)
 		(fp_rect
 			(start -1.77 -1.77)
@@ -5609,24 +5609,14 @@
 			(uuid "18f1b260-0e33-4386-bef0-8716725157c7")
 		)
 		(fp_line
-			(start -1.27 -0.635)
-			(end -0.635 -1.27)
+			(start 1.27 -1.27)
+			(end 1.27 13.97)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9ace417b-052d-4f7a-9faa-f194fce2b9ed")
-		)
-		(fp_line
-			(start -1.27 13.97)
-			(end -1.27 -0.635)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "773eb9bd-0849-4cbf-a532-c868bf5df235")
+			(uuid "c247b981-9363-4e90-9528-079b419a5aff")
 		)
 		(fp_line
 			(start -0.635 -1.27)
@@ -5639,14 +5629,14 @@
 			(uuid "50814859-dce1-4aeb-910c-e2d9f251b070")
 		)
 		(fp_line
-			(start 1.27 -1.27)
-			(end 1.27 13.97)
+			(start -1.27 -0.635)
+			(end -0.635 -1.27)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c247b981-9363-4e90-9528-079b419a5aff")
+			(uuid "9ace417b-052d-4f7a-9faa-f194fce2b9ed")
 		)
 		(fp_line
 			(start 1.27 13.97)
@@ -5658,8 +5648,18 @@
 			(layer "F.Fab")
 			(uuid "d2a8e40f-7090-41c1-9f8c-e2ddb6c7e783")
 		)
+		(fp_line
+			(start -1.27 13.97)
+			(end -1.27 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "773eb9bd-0849-4cbf-a532-c868bf5df235")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 6.35 90)
+			(at 0 6.35 0)
 			(layer "F.Fab")
 			(uuid "d5717545-9ed2-4b96-a0fb-c82def35856a")
 			(effects
@@ -5670,7 +5670,7 @@
 			)
 		)
 		(pad "Black" thru_hole circle
-			(at 0 2.54)
+			(at 0 2.54 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -5681,7 +5681,7 @@
 			(uuid "32d92b80-3a21-429b-aaac-631afe59d3c0")
 		)
 		(pad "Blue" thru_hole circle
-			(at 0 7.62)
+			(at 0 7.62 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -5692,7 +5692,7 @@
 			(uuid "a64ebb89-3e71-4dad-b923-cbc25fd94d4d")
 		)
 		(pad "Green" thru_hole circle
-			(at 0 5.08)
+			(at 0 5.08 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -5703,7 +5703,7 @@
 			(uuid "abf6f41c-e137-4615-adf7-f20306cdc361")
 		)
 		(pad "Red" thru_hole rect
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -5714,7 +5714,7 @@
 			(uuid "771b0c24-46a2-4efd-96f1-9caaec8034b9")
 		)
 		(pad "White" thru_hole circle
-			(at 0 12.7)
+			(at 0 12.7 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -5725,7 +5725,7 @@
 			(uuid "adb62c2f-65a3-4283-abab-d43d6d887886")
 		)
 		(pad "Yellow" thru_hole circle
-			(at 0 10.16)
+			(at 0 10.16 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -5751,7 +5751,7 @@
 	(footprint "Teensy:Battery_ScrewTerminal_1x02_P5.08mm"
 		(layer "F.Cu")
 		(uuid "b3d89cac-c548-4a47-bd7c-d162cede0a1e")
-		(at 152.985 112.075)
+		(at 196.455 78.6725)
 		(descr "2-pin 5.08mm screw terminal for the 8xAA battery pack. Pads VOUT (pack +) and GND, matching the EV:Battery_Pack symbol. Based on KiCad Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "P1"
@@ -6116,7 +6116,7 @@
 	(footprint "Teensy:GY-BNO08X_1x10_P2.54mm"
 		(layer "F.Cu")
 		(uuid "c2879ce1-adea-4de8-89df-e896970408ec")
-		(at 142.445 99.875)
+		(at 117 85.88)
 		(descr "GY-BNO08X (BNO080/BNO085/BNO086) IMU module, single 1x10 0.1in header, TOP VIEW: VCC at pin 1 (top) down to PS0 (bottom). Pads named by the module silkscreen labels. Board outline not included: module size varies by seller, measure yours.")
 		(tags "BNO085 BNO08X GY IMU 1x10")
 		(property "Reference" "CS2"
@@ -6529,7 +6529,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "c46c1fee-8048-439a-9257-1537fd45fa2a")
-		(at 117.715 121.1)
+		(at 50.6375 81.05)
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U1"
@@ -6891,7 +6891,7 @@
 	(footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568"
 		(layer "F.Cu")
 		(uuid "cc2e49a4-2e35-450a-a5d4-9bf23bc08ffe")
-		(at 153.235 99.995)
+		(at 185.08 115.5)
 		(descr "fuse holder, car blade fuse mini, http://www.keyelco.com/product-pdf.cfm?p=306")
 		(tags "car blade fuse mini")
 		(property "Reference" "F1"
@@ -7171,7 +7171,7 @@
 	(footprint "Teensy:Display_ST7789_Header_1x08_P2.54mm_Named"
 		(layer "F.Cu")
 		(uuid "d483916d-b8cc-4fdf-86f7-038ee521d7bc")
-		(at 147.095 99.875)
+		(at 150 90.92)
 		(descr "8-pin 0.1in male header for Waveshare 1.69in ST7789V2 display on jumper wires. Order matches the display cable: VCC GND DIN CLK CS DC RST BL (pin 1 = VCC, square pad). Pads named by signal to match symbols that use pin names; use PinHeader_1x08_P2.54mm_Vertical for symbols numbered 1-8.")
 		(tags "header 1x08 display ST7789 jumper")
 		(property "Reference" "CS3"
@@ -7538,7 +7538,7 @@
 	(footprint "Teensy:Pololu_D24V22F5_2858"
 		(layer "F.Cu")
 		(uuid "eb79f412-27f5-49db-aba2-9ff5960e3bf1")
-		(at 149.38 53.38)
+		(at 107.88 53.38)
 		(descr "Pololu D24V22F5 5V regulator #2858 (reg19a), 17.8x17.8mm, TOP VIEW. Main row PG/EN/VIN/GND/VOUT plus extra GND; two 2.18mm mounting holes. Verified vs Pololu labeled pinout photo and dimension drawing. Pads numbered to match EV_2027:D24V22F5 (VIN=1 GND=2 VOUT=3 EN=4).")
 		(tags "Pololu_D24V22F5_2858")
 		(property "Reference" "P3"
