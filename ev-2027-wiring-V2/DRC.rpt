@@ -1,0 +1,254 @@
+** Drc report for ev-2027-wiring-V2.kicad_pcb **
+** Created on 2026-11-04T19:47:36 **
+** Report includes: Errors, Warnings **
+
+** Found 69 DRC violations **
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(9.5000 mm, 17.5000 mm): Zone 'GND' [GND] on B.Cu, priority 0
+    @(164.3500 mm, 64.6500 mm): PTH pad GND [GND] of U5
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; 1 spokes connected to isolated island)
+    Local override; error
+    @(9.5000 mm, 17.5000 mm): Zone 'GND' [GND] on B.Cu, priority 0
+    @(125.0000 mm, 81.5400 mm): PTH pad GND [GND] of U7
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(40.0000 mm, 40.0000 mm): Rectangle on Edge.Cuts
+    @(176.0000 mm, 39.8500 mm): Reference field of REF**
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(40.0000 mm, 40.0000 mm): Rectangle on Edge.Cuts
+    @(44.0000 mm, 39.8500 mm): Reference field of REF**
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(40.0000 mm, 40.0000 mm): Rectangle on Edge.Cuts
+    @(39.9900 mm, 51.1800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(40.0000 mm, 40.0000 mm): Rectangle on Edge.Cuts
+    @(39.9900 mm, 52.8200 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(40.0000 mm, 40.0000 mm): Rectangle on Edge.Cuts
+    @(39.9900 mm, 55.1400 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(40.0000 mm, 40.0000 mm): Rectangle on Edge.Cuts
+    @(39.9900 mm, 56.7800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(40.0000 mm, 40.0000 mm): Rectangle on Edge.Cuts
+    @(41.4900 mm, 51.1800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(40.0000 mm, 40.0000 mm): Rectangle on Edge.Cuts
+    @(41.4900 mm, 55.1400 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(40.0000 mm, 40.0000 mm): Rectangle on Edge.Cuts
+    @(159.9400 mm, 39.6900 mm): Segment of J8 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(40.0000 mm, 40.0000 mm): Rectangle on Edge.Cuts
+    @(167.5600 mm, 39.6900 mm): Segment of J8 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(40.0000 mm, 40.0000 mm): Rectangle on Edge.Cuts
+    @(50.1800 mm, 128.5100 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(40.0000 mm, 40.0000 mm): Rectangle on Edge.Cuts
+    @(50.1800 mm, 130.0100 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(40.0000 mm, 40.0000 mm): Rectangle on Edge.Cuts
+    @(51.8200 mm, 130.0100 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(40.0000 mm, 40.0000 mm): Rectangle on Edge.Cuts
+    @(54.1400 mm, 128.5100 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(40.0000 mm, 40.0000 mm): Rectangle on Edge.Cuts
+    @(54.1400 mm, 130.0100 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(40.0000 mm, 40.0000 mm): Rectangle on Edge.Cuts
+    @(55.7800 mm, 130.0100 mm): Segment of J1 on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(120.4000 mm, 112.7500 mm): Footprint text of U3 (IN-)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(120.4000 mm, 121.2500 mm): Footprint text of U3 (IN+)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(129.4000 mm, 112.7500 mm): Footprint text of U3 (OUT-)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(129.4000 mm, 121.2500 mm): Footprint text of U3 (OUT+)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(64.1000 mm, 108.5000 mm): Footprint text of U1 (IN+)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(64.1000 mm, 125.5000 mm): Footprint text of U1 (IN-)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(97.7000 mm, 108.5000 mm): Footprint text of U1 (OUT+)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(97.7000 mm, 125.5000 mm): Footprint text of U1 (OUT-)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(95.0000 mm, 71.7300 mm): Footprint text of CS1 (MIMXRT1062)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(95.1800 mm, 70.4600 mm): Footprint text of CS1 (DVJ6A)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(153.9500 mm, 62.1100 mm): Footprint text of U5 (ENBL)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(153.9500 mm, 64.6500 mm): Footprint text of U5 (M0)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(153.9500 mm, 67.1900 mm): Footprint text of U5 (M1)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(153.9500 mm, 69.7300 mm): Footprint text of U5 (CONFIG)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(153.9500 mm, 72.2700 mm): Footprint text of U5 (VREF)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(153.9500 mm, 74.8100 mm): Footprint text of U5 (SLEEP)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(153.9500 mm, 77.3500 mm): Footprint text of U5 (STEP)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(153.9500 mm, 79.8900 mm): Footprint text of U5 (DIR)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(162.0500 mm, 62.1100 mm): Footprint text of U5 (VMOT)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(162.0500 mm, 64.6500 mm): Footprint text of U5 (GND)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(162.0500 mm, 67.1900 mm): Footprint text of U5 (B2)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(162.0500 mm, 69.7300 mm): Footprint text of U5 (B1)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(162.0500 mm, 72.2700 mm): Footprint text of U5 (A1)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(162.0500 mm, 74.8100 mm): Footprint text of U5 (A2)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(162.0500 mm, 77.3500 mm): Footprint text of U5 (FAULT)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(162.0500 mm, 79.8900 mm): Footprint text of U5 (GND)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(61.4500 mm, 50.3800 mm): Footprint text of U4 (VM)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(61.4500 mm, 52.9200 mm): Footprint text of U4 (GND)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(61.4500 mm, 55.4600 mm): Footprint text of U4 (IN1)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(61.4500 mm, 58.0000 mm): Footprint text of U4 (IN2)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(61.4500 mm, 60.5400 mm): Footprint text of U4 (PMODE)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(61.4500 mm, 63.0800 mm): Footprint text of U4 (SLEEP)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(61.4500 mm, 65.6200 mm): Footprint text of U4 (VREF)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(69.5500 mm, 50.3800 mm): Footprint text of U4 (VIN)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(69.5500 mm, 52.9200 mm): Footprint text of U4 (GND)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(69.5500 mm, 55.4600 mm): Footprint text of U4 (OUT1)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(69.5500 mm, 58.0000 mm): Footprint text of U4 (OUT2)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(69.5500 mm, 60.5400 mm): Footprint text of U4 (IMODE)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(69.5500 mm, 63.0800 mm): Footprint text of U4 (FAULT)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(69.5500 mm, 65.6200 mm): Footprint text of U4 (CS)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(145.4000 mm, 112.7500 mm): Footprint text of U2 (IN-)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(145.4000 mm, 121.2500 mm): Footprint text of U2 (IN+)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(154.4000 mm, 112.7500 mm): Footprint text of U2 (OUT-)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(154.4000 mm, 121.2500 mm): Footprint text of U2 (OUT+)
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(113.0800 mm, 49.6300 mm): Reference field of R2
+    @(108.5400 mm, 49.3700 mm): Segment of R1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(113.0800 mm, 61.6300 mm): Reference field of R5
+    @(109.8100 mm, 58.6300 mm): Rectangle of R4 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(109.8100 mm, 54.6300 mm): Rectangle of R3 on F.Silkscreen
+    @(113.0800 mm, 57.6300 mm): Reference field of R4
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(113.0800 mm, 53.6300 mm): Reference field of R3
+    @(109.8100 mm, 50.6300 mm): Rectangle of R2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(109.8100 mm, 62.6300 mm): Rectangle of R5 on F.Silkscreen
+    @(113.0800 mm, 65.6300 mm): Reference field of R6
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(57.5500 mm, 53.9800 mm): Reference field of J6
+    @(57.8800 mm, 66.8900 mm): Segment of U4 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(153.9500 mm, 69.7300 mm): Footprint text of U5 (CONFIG)
+    @(151.6500 mm, 69.7300 mm): PTH pad CONFIG [unconnected-(U5-PadCONFIG)] of U5
+
+** Found 1 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(164.3500 mm, 64.6500 mm): PTH pad GND [GND] of U5
+    @(9.5000 mm, 17.5000 mm): Zone 'GND' [GND] on B.Cu, priority 0
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
